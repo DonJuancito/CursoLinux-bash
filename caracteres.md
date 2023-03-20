@@ -1,0 +1,8 @@
+- &&: nos ayuda a ejecutar dos comandos pero solo si el primero es correcto
+- ||: ejecuta este comando o el otro
+- \: nos permite saltar de linea
+- /: hace referencia al directorio raiz
+- ;: concatena comandos
+- !: ejecuta el ultimo comando que hayamos utilizado
+- !!: ejecuta el ultimo comando sin tener que escribir ningun comando
+- !$: nos permite ver el ultimo argumento escrito

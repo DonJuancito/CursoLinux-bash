@@ -1,0 +1,10 @@
+COMANDOS 
+
+- SS: La utilidad de línea de comandos ss puede mostrar estadísticas para sockets de dominio PACKET, TCP, UDP, DCCP, RAW y Unix. nos muestra todos los intercambios de procesos en nuestra maquina local y que maquinas tenemos conectadas
+ - ss -a: saca un listado de todos los sockets y conexiones en nuestro sistema
+ - ss -a: saca un listado de todos los sockets y conexiones en nuestro sistema nos saca las primeras
+ - ss -a | grep ssh: una opcion de filtrado para buscar algo en concreto
+ - ss -ta: para ver las conexiones tfp activas
+ - ss -t: para per la conexiones tfp establecidas
+ - ss -u: para ver la conexiones udp establecidas
+ - ss -l: para ver las conexiones que estan en estado de escucha

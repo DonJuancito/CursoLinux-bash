@@ -1,0 +1,11 @@
+si se ponen caracteres dentro de las comillas "" pierden todo su significado excepto $ / `
+
+si se ponen caracteres dentro de las comillas simple '' pierden todo su significado sin excepciones
+
+el caracter escape / nos va a servir para que ciertas cosas pierdan su significado
+
+PROGRAMA
+
+-su: El programa su es una utilidad de los sistemas operativos del tipo Unix que permite usar el intérprete de comandos de otro usuario sin necesidad de cerrar la sesión. Comúnmente se usa para obtener permisos de root para operaciones administrativas, sin tener que salir y reentrar al sistema.
+ - su -l: te manda directamente al usuario creado
+ - su -c: le podemos indicar el coman entre comillas sin necesidad de crear una nueva shell 'chmod o+r juanes' juanes
